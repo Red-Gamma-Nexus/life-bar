@@ -7,31 +7,35 @@
   <link rel="stylesheet" href="style.css" />
   <style>
     body {
-      max-width: 400px;
-      max-height: 500px;
+      max-width: 380px;
+      max-height: 400px;
       margin: 0 auto;
       overflow: hidden;
-      font-size: 14px;
+      font-size: 12px;
     }
     .container {
-      padding: 10px;
+      padding: 6px;
     }
     h1 {
-      font-size: 20px;
+      font-size: 16px;
       text-align: center;
-      margin-bottom: 10px;
+      margin-bottom: 6px;
     }
     small {
-      font-size: 12px;
+      font-size: 10px;
     }
     .label {
-      font-size: 14px;
+      font-size: 12px;
     }
     .progress-container {
-      height: 15px;
+      height: 10px;
+      border-width: 1px;
     }
     .progress-text, .life-extra {
-      font-size: 12px;
+      font-size: 10px;
+    }
+    .bar {
+      margin-bottom: 8px;
     }
   </style>
 </head>
@@ -39,55 +43,4 @@
   <div class="container">
     <h1>Erik's Life Bar <small>(Every Second Counts)</small></h1>
 
-    <!-- LIFE BAR -->
-    <div class="bar">
-      <div class="label">Life:</div>
-      <div class="progress-container">
-        <div id="lifeBar" class="progress-fill"></div>
-      </div>
-      <div class="life-extra">
-        <span id="lifeRemaining"></span>
-      </div>
-      <div id="lifeText" class="progress-text"></div>
-    </div>
-
-    <!-- GOAL BAR -->
-    <div class="bar">
-      <div class="label">Goal Progress:</div>
-      <div class="progress-container">
-        <div id="goalBar" class="progress-fill"></div>
-      </div>
-      <div id="goalText" class="progress-text"></div>
-    </div>
-
-    <!-- MONTHS BAR -->
-    <div class="bar">
-      <div class="label">Months Left:</div>
-      <div class="progress-container">
-        <div id="monthBar" class="progress-fill"></div>
-      </div>
-      <div id="monthText" class="progress-text"></div>
-    </div>
-
-    <!-- WEEKS BAR -->
-    <div class="bar">
-      <div class="label">Weeks Left:</div>
-      <div class="progress-container">
-        <div id="weekBar" class="progress-fill"></div>
-      </div>
-      <div id="weekText" class="progress-text"></div>
-    </div>
-
-    <!-- DAYS BAR -->
-    <div class="bar">
-      <div class="label">Days Left:</div>
-      <div class="progress-container">
-        <div id="dayBar" class="progress-fill"></div>
-      </div>
-      <div id="dayText" class="progress-text"></div>
-    </div>
-  </div>
-
-  <script src="app.js"></script>
-</body>
-</html>
+    <!--
